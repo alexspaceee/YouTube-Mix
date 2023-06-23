@@ -1,6 +1,5 @@
 # YouTube-Mix
 (Chrome Extention made in collaboration with GPT-4.)
-
 Start a continuous Mix from any song on YouTube using the keyboard shortcut Ctrl+Shift+Y.
 
 To install the extention...
