@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube_Mix",
+    "description": "Start a continuous Mix from any song on YouTube using the keyboard shortcut Ctrl+Shift+Y.",
+    "version": "1.0",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "permissions": [
+      "tabs", "https://www.youtube.com/*"
+    ],
+    "commands": {
+      "redirect_command": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Y"
+        },
+        "description": "Redirect to YouTube Mix link"
+      }
+    }
+  }
